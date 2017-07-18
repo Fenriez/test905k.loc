@@ -1,0 +1,257 @@
+﻿/*------------TAGS------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {    
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;    
+}
+
+ul {
+    margin: 0;
+    text-align: left;
+}
+li {
+    list-style: none;
+}
+
+a, a:hover, a:visited, a:active {  
+    text-decoration: none;
+    color: #000000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+h3 {
+    font-size: 1.8em;
+}
+h4 {
+    font-size: 1.6em;
+}
+h6 {
+    font-size: 1.1em;
+}
+p, .product-properties li, .product-price span {
+    font-size: 1.3em;
+}
+
+
+
+/*------------CLASSES------------*/
+.center {
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.section-menu {
+    max-width: 1620px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.section-name {    
+    float: left;
+    padding: 5.5px 36px 5.5px 0;
+}
+.section-name h3 {
+    font-weight: bold;
+    vertical-align: 50%;
+}
+
+.navigation {
+    position: relative;
+}
+
+.nav-button {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 20px;
+    border: 1px solid #d8d8d8;
+    border-radius: 3px;
+    font-size: 1.3em;
+}
+.nav-button:hover {
+    background-color: #ff5252;
+    color: #ffffff;
+}
+
+.carousel-control-block {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.carousel-control-block div {
+    float: left;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #d8d8d8;
+    border-radius: 1px;  
+}
+
+/*Products' block*/
+.products-block {   
+    height: 480px;
+    max-width: 1620px;
+    overflow: hidden;
+    text-align: center;
+}
+.product{
+    float: left;
+    height: 480px;
+    width: 270px;
+    border: 1px solid #d8d8d8;
+}
+
+.image-block {
+    position: relative;
+    height: 250px;    
+}
+
+.discount {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    background: #ff5252;
+    border-radius: 3px;
+    text-align: center;    
+}
+.discount h6 {
+    color: #ffffff;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.options {
+    display: inline-block;
+    width: 20px;
+    height: 49px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.like, .rotate {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+}
+.like {
+    margin-bottom: 9px;
+    background: url(../images/heart2.png) no-repeat center, #ffffff;
+}
+.like:hover {
+    background: url(../images/heart.png) no-repeat center, #ffffff;
+}
+.rotate {
+    background: url(../images/arrows.png) no-repeat center, #ffffff;
+}
+
+.product-rate {
+    width: 60px;
+    height: 8px;
+    position: absolute;
+    bottom: 4px;
+    left: 20px;
+    background: url(../images/stars.png) no-repeat, #ffffff;
+}
+.product-rate div {
+    height: 100%;    
+    background: url(../images/stars-a.png) no-repeat, #ffffff;
+}
+
+.comments {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+}
+.comments img, .comments h6 {
+    display: inline-block;
+    position: relative;
+}
+.comments h6 {
+    padding-left: 2px;
+    font-weight: bold;
+    color: #b3b3b3;
+}
+
+.gift {
+    display: inline-block;
+    height: 64px;
+    width: 60px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background: url(../images/gift.jpg) no-repeat center, #ffffff;
+    border-radius: 3px;
+}
+
+.description-block {
+    padding: 20px;
+    height: 230px;
+    position: relative;
+    text-align: left;
+}
+
+.product-name h4 {
+    max-height: 36px;
+    padding-bottom: 2px;
+    font-weight: bold;
+    color: #3f598c;
+    overflow: hidden;
+    text-overflow: ellipsis;    
+}
+.product-name h6 {      
+    margin-top: 4px;
+    max-height: 12px;
+    color: #808080;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.product-price {
+    margin-top: 19px;
+}
+.product-price h3 {
+    font-weight: bold;
+}
+.product-price span {
+    color: #808080;
+    text-decoration: line-through;
+}
+.product-price p {    
+    display: inline-block;
+    color: #808080;
+}
+
+.product-properties {
+    position: absolute;
+    bottom: 20px;
+}
+
+.active {
+    background-color: #ff5252;
+    color: #ffffff;
+}
+
+/*------------ID's------------*/
+#previous {
+    background: url(../images/carousel_arrow_left.png) no-repeat center, #ffffff;
+}
+#next {
+    background: url(../images/carousel_arrow_right.png) no-repeat center, #ffffff;
+}
