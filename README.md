@@ -1,2 +1,2 @@
 # test905k.loc
-Тестовое задание 
+"Most interesting" module
